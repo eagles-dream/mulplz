@@ -1,21 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './navbar.module.css'
+import '@fortawesome/fontawesome-free/js/all.js'
 
 const Navbar = () => {
+  const [burger, setBurger] = useState(false)
+  const toggle = () => {
+    return(setBurger(!burger))
+  }
   return(
     <div className={styles.navbar}>
       <div className={styles.logo}>
-        <img className={styles.img} src="/favicon.ico" alt="logo" />
-        <span className={styles.title}>Mulplz</span>
+        <span className={styles.icon}><i className="fas fa-parachute-box"></i></span>
+        <span className={styles.title}>물플</span>
       </div>
-      <div className={styles.menu}>
+      <div className={burger ? styles.menu_active : styles.menu}>
         <span className={styles.text}>물플소개</span>
-        <span className={styles.text}>주요 서비스</span>
+        <span className={styles.text}>서비스</span>
         <span className={styles.text}>진행절차</span>
-        <span className={styles.text}>물플의 장점</span>
+        <span className={styles.text}>물플장점</span>
       </div>
       <button className={styles.button}>견적문의</button>
-      <button className={styles.burger}>버거</button>
+      <span className={styles.burger} onClick={toggle}><i className="fas fa-bars"></i></span>
     </div>
   )
 };

@@ -1,4 +1,14 @@
+:root {
+  --text-color: #ffffff;
+  --background-color: #4527a0;
+  --border-color: #000070;
+  --hover-color: #7953d2;
+  --button-text-color: #000070;
+}
+
 .app {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (prefers-reduced-motion: no-preference) {
