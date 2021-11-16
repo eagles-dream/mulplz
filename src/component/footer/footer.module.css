@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  background-color: var(--footer-color);
+  color: var(--text-color);
+  line-height: 2rem;
+  width: 100%;
+}
+
+.title {
+  font-size: 1.7rem;
+  padding: 1rem;
+}
+
+.adress {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1rem;
+}

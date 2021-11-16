@@ -98,6 +98,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    font-size: 1.2rem;
+    font-weight: 300;
     align-items: center;
     padding: 2em 0 1.5em 0;
   }

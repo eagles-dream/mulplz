@@ -1,4 +1,5 @@
 import styles from './app.module.css';
+import Footer from './component/footer/footer';
 import Introduction from './component/intruduction/introduction';
 import Introduction2 from './component/intruduction2/introduction2';
 import Navbar from './component/navbar/navbar';
@@ -13,6 +14,7 @@ function App() {
       <Introduction2 />
       <Service />
       <Process />
+      <Footer />
     </div>
   );
 }
