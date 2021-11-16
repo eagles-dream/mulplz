@@ -15,11 +15,12 @@ const Navbar = () => {
       </div>
       <div className={burger ? styles.menu_active : styles.menu}>
         <span className={styles.text}>물플소개</span>
-        <span className={styles.text}>서비스</span>
+        <span className={styles.text}>주요서비스</span>
         <span className={styles.text}>진행절차</span>
         <span className={styles.text}>물플장점</span>
       </div>
-      <button className={styles.button}>견적문의</button>
+      <button className={styles.inquiry}>견적문의</button>
+      <button className={styles.calling}>전화문의</button>
       <span className={styles.burger} onClick={toggle}><i className="fas fa-bars"></i></span>
     </div>
   )

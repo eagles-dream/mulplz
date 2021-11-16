@@ -1,0 +1,62 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 4em;
+  background-color: var(--service-color);
+  font-size: 2.4rem;
+}
+
+.title {
+  padding-bottom: 2rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 4rem;
+}
+
+.icon {
+  font-size: 5rem;
+  color: var(--icon-color);
+}
+
+.card h6 {
+  width: 15rem;
+  margin: 0.3rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.card p {
+  width: 15rem;
+  margin: 0.3rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .service {
+    padding: 2em 0.5em;
+    font-size: 1.8em;
+  }
+
+  .card {
+    padding: 1rem 2rem;
+  }
+
+  .card p {
+    width: 25rem;
+    margin: 0.3rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+}

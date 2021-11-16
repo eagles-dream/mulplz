@@ -4,24 +4,14 @@
   --border-color: #000070;
   --hover-color: #7953d2;
   --button-text-color: #000070;
+  --button-color: #38006b;
+  --sns1-color: #d3b8ae;
+  --sns2-color: #a6bfcc;
+  --icon-color: #757575;
+  --service-color: #efebe9;
 }
 
 .app {
   display: flex;
   flex-direction: column;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
