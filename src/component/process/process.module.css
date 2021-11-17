@@ -58,7 +58,7 @@
 .icon1,
 .icon2 {
   font-size: 4.5rem;
-  border-radius: 50%;
+  border-radius: 30%;
   padding: 0 2rem 0.1em 2rem;
   color: var(--text-color);
 }
@@ -100,5 +100,13 @@
     100% {
       transform: translateX(0.8em);
     }
+  }
+
+  .icon1,
+  .icon2 {
+    font-size: 3.5rem;
+    border-radius: 30%;
+    padding: 0 2rem 0.1em 2rem;
+    color: var(--text-color);
   }
 }

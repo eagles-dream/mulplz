@@ -75,11 +75,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 90%;
   }
 
   .img {
-    font-size: 300px;
+    font-size: 290px;
   }
 
   .text1 {
@@ -87,6 +87,7 @@
     color: var(--text-color);
     font-size: 1.8em;
     padding: 0.5em 0;
+    width: 23rem;
   }
 
   .text2 {
@@ -94,5 +95,6 @@
     color: var(--text-color);
     font-size: 1.1em;
     padding: 0.5em 0;
+    width: 23rem;
   }
 }

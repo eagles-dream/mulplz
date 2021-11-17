@@ -81,5 +81,22 @@
   .content {
     padding: 1em 0.5em;
     font-size: 1em;
+    text-align: start;
+  }
+
+  .content3_sub,
+  .content5_sub {
+    width: 15rem;
+    text-align: start;
+  }
+
+  .content2_sub {
+    width: 15rem;
+    text-align: end;
+  }
+
+  .content4_sub {
+    width: 14rem;
+    text-align: end;
   }
 }

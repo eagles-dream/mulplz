@@ -58,19 +58,19 @@
   }
 
   .card {
-    padding: 1rem 2rem;
+    padding: 1rem 0;
   }
 
   .img {
-    width: 100%;
+    width: 90%;
     border-radius: 1rem;
     border: 1px solid var(--background-color);
   }
 
   .card p {
-    width: 25rem;
+    width: 22rem;
     margin: 0.3rem;
-    padding: 0 1rem;
+    padding: 0 0.2rem 1rem 0.2rem;
     font-size: 1rem;
     text-align: center;
   }

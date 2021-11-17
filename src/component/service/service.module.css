@@ -49,13 +49,13 @@
   }
 
   .card {
-    padding: 1rem 2rem;
+    padding: 1rem 0;
   }
 
   .card p {
-    width: 25rem;
+    width: 22.1rem;
     margin: 0.3rem;
-    padding: 0 1rem;
+    padding: 0 0rem;
     font-size: 1rem;
     text-align: center;
   }
