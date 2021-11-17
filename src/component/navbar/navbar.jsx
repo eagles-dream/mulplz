@@ -21,7 +21,10 @@ const Navbar = () => {
       </div>
       <button className={styles.inquiry}>견적문의</button>
       <button className={styles.calling}>전화문의</button>
-      <span className={styles.burger} onClick={toggle}><i className="fas fa-bars"></i></span>
+      <span onClick={toggle}>
+        <span className={!burger ? styles.burger_active : styles.burger}><i className="fas fa-bars"></i></span>
+        <span className={burger ? styles.times_active : styles.times}><i className="fas fa-times"></i></span>
+      </span>
     </div>
   )
 };

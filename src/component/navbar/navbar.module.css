@@ -71,7 +71,10 @@
   display: none;
 }
 
-.burger {
+.burger,
+.times,
+.burger_active,
+.times_active {
   display: none;
 }
 
@@ -92,6 +95,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 100vh;
     font-size: 1.2rem;
     font-weight: 300;
     align-items: center;
@@ -123,6 +127,7 @@
     position: fixed;
     bottom: 0.8em;
     left: 0.8em;
+    font-size: 1.2rem;
     color: var(--text-color);
     background-color: var(--calling-color);
   }
@@ -132,7 +137,7 @@
     height: 3rem;
     margin: 0 1em;
     border-radius: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: var(--text-color);
     cursor: pointer;
@@ -143,7 +148,7 @@
     background-color: var(--calling-color);
   }
 
-  .burger {
+  .burger_active {
     display: inline-block;
     position: absolute;
     right: 1.1em;
@@ -151,13 +156,26 @@
     font-size: 1.5em;
     color: var(--text-color);
     cursor: pointer;
+    animation: spin 1s;
   }
 
-  .burger:hover {
-    color: var(--button-color);
+  .times_active {
+    display: inline-block;
+    position: absolute;
+    right: 1.01em;
+    top: 0.43em;
+    font-size: 1.7em;
+    color: var(--text-color);
+    cursor: pointer;
+    animation: spin 1s;
   }
 
-  .burger:active {
-    color: var(--button-color);
+  @keyframes spin {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(180deg);
+    }
   }
 }
