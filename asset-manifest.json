@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mulplz/static/css/main.260fd4e1.chunk.css",
+    "main.js": "/mulplz/static/js/main.7d766a18.chunk.js",
+    "main.js.map": "/mulplz/static/js/main.7d766a18.chunk.js.map",
+    "runtime-main.js": "/mulplz/static/js/runtime-main.a85b6b41.js",
+    "runtime-main.js.map": "/mulplz/static/js/runtime-main.a85b6b41.js.map",
+    "static/js/2.3a0132d2.chunk.js": "/mulplz/static/js/2.3a0132d2.chunk.js",
+    "static/js/2.3a0132d2.chunk.js.map": "/mulplz/static/js/2.3a0132d2.chunk.js.map",
+    "index.html": "/mulplz/index.html",
+    "static/css/main.260fd4e1.chunk.css.map": "/mulplz/static/css/main.260fd4e1.chunk.css.map",
+    "static/js/2.3a0132d2.chunk.js.LICENSE.txt": "/mulplz/static/js/2.3a0132d2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a85b6b41.js",
+    "static/js/2.3a0132d2.chunk.js",
+    "static/css/main.260fd4e1.chunk.css",
+    "static/js/main.7d766a18.chunk.js"
+  ]
+}
