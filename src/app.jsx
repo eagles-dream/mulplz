@@ -5,6 +5,7 @@ import Introduction2 from './component/intruduction2/introduction2';
 import Navbar from './component/navbar/navbar';
 import Process from './component/process/process';
 import Service from './component/service/service';
+import Strength from './component/strength/strength';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Introduction2 />
       <Service />
       <Process />
+      <Strength />
       <Footer />
     </div>
   );
