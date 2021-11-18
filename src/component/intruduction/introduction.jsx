@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './introduction.module.css'
+import Introduction2 from './introduction2';
 
 const Introduction = () => {
   return(
+    <>
     <div className={styles.introduction}>
       <div className={styles.left}>
         <span className={styles.text1}>믿을수 있고 쉽고 편한,<br />종합물류대행 서비스</span>
@@ -12,6 +14,8 @@ const Introduction = () => {
         <span className={styles.img}><i className="fas fa-people-carry"></i></span>
       </div>
     </div>
+    <Introduction2 />
+    </>
   )
 };
 

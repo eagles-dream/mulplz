@@ -4,9 +4,11 @@ import '@fortawesome/fontawesome-free/js/all.js'
 
 const Navbar = () => {
   const [burger, setBurger] = useState(false)
+  
   const toggle = () => {
     return(setBurger(!burger))
   }
+
   return(
     <div className={styles.navbar}>
       <div className={styles.logo}>
