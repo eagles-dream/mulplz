@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/mulplz/static/css/main.9bde2955.chunk.css",
-    "main.js": "/mulplz/static/js/main.a68a610b.chunk.js",
-    "main.js.map": "/mulplz/static/js/main.a68a610b.chunk.js.map",
+    "main.css": "/mulplz/static/css/main.51994521.chunk.css",
+    "main.js": "/mulplz/static/js/main.bd340f17.chunk.js",
+    "main.js.map": "/mulplz/static/js/main.bd340f17.chunk.js.map",
     "runtime-main.js": "/mulplz/static/js/runtime-main.a85b6b41.js",
     "runtime-main.js.map": "/mulplz/static/js/runtime-main.a85b6b41.js.map",
     "static/js/2.23f83869.chunk.js": "/mulplz/static/js/2.23f83869.chunk.js",
     "static/js/2.23f83869.chunk.js.map": "/mulplz/static/js/2.23f83869.chunk.js.map",
     "index.html": "/mulplz/index.html",
-    "static/css/main.9bde2955.chunk.css.map": "/mulplz/static/css/main.9bde2955.chunk.css.map",
+    "static/css/main.51994521.chunk.css.map": "/mulplz/static/css/main.51994521.chunk.css.map",
     "static/js/2.23f83869.chunk.js.LICENSE.txt": "/mulplz/static/js/2.23f83869.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a85b6b41.js",
     "static/js/2.23f83869.chunk.js",
-    "static/css/main.9bde2955.chunk.css",
-    "static/js/main.a68a610b.chunk.js"
+    "static/css/main.51994521.chunk.css",
+    "static/js/main.bd340f17.chunk.js"
   ]
 }
