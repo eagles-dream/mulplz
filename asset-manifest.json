@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mulplz/static/css/main.51994521.chunk.css",
-    "main.js": "/mulplz/static/js/main.bd340f17.chunk.js",
-    "main.js.map": "/mulplz/static/js/main.bd340f17.chunk.js.map",
+    "main.js": "/mulplz/static/js/main.256faf16.chunk.js",
+    "main.js.map": "/mulplz/static/js/main.256faf16.chunk.js.map",
     "runtime-main.js": "/mulplz/static/js/runtime-main.a85b6b41.js",
     "runtime-main.js.map": "/mulplz/static/js/runtime-main.a85b6b41.js.map",
     "static/js/2.23f83869.chunk.js": "/mulplz/static/js/2.23f83869.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.a85b6b41.js",
     "static/js/2.23f83869.chunk.js",
     "static/css/main.51994521.chunk.css",
-    "static/js/main.bd340f17.chunk.js"
+    "static/js/main.256faf16.chunk.js"
   ]
 }
