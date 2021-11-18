@@ -111,13 +111,13 @@
   }
 
   .text:hover {
-    background-color: var(--hover-color);
+    background-color: var(--button-color);
     color: var(--text-color);
     border-radius: 8px;
   }
 
   .text:active {
-    background-color: var(--hover-color);
+    background-color: var(--button-color);
   }
 
   .inquiry {

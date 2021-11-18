@@ -57,6 +57,16 @@
   width: 50%;
 }
 
+.top {
+  position: fixed;
+  right: 1em;
+  bottom: 1em;
+  font-size: 2.2em;
+  color: var(--button-color);
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1200px) {
   .introduction {
     display: flex;
@@ -96,5 +106,13 @@
     font-size: 1.1em;
     padding: 0.5em 0;
     width: 23rem;
+  }
+
+  .top {
+    position: fixed;
+    right: 0.5em;
+    bottom: 5em;
+    font-size: 1.5em;
+    color: var(--button-color);
   }
 }
