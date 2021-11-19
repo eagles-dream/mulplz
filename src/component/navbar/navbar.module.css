@@ -78,6 +78,10 @@
   display: none;
 }
 
+.offcanvas {
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   .navbar {
     display: flex;
@@ -168,6 +172,10 @@
     color: var(--text-color);
     cursor: pointer;
     animation: spin 1s;
+  }
+
+  .offcanvas {
+    display: block;
   }
 
   @keyframes spin {
