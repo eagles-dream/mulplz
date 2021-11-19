@@ -3,10 +3,10 @@ import styles from './process.module.css';
 import Card1 from './card1';
 import Card2 from './card2';
 
-const Process = () => {
+const Process = ({tabRef3}) => {
   
   return(
-    <div className={styles.process}>
+    <div ref={tabRef3} className={styles.process}>
       <div className={styles.title}>진행절차</div>
       <div className={styles.container}>
         <Card1 />

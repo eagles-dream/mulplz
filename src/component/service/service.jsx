@@ -2,9 +2,9 @@ import React from 'react';
 import styles from './service.module.css'
 import { data } from '../data/data';
 
-const Service = () => {
+const Service = ({tabRef2}) => {
   return(
-    <div className={styles.service}>
+    <div ref={tabRef2} className={styles.service}>
       <div className={styles.title}>주요서비스</div>
       <div className={styles.content}>
         {

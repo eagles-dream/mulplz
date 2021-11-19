@@ -2,9 +2,9 @@ import React from 'react';
 import styles from './strength.module.css'
 import { data } from '../data/data';
 
-const Strength = () => {
+const Strength = ({tabRef4}) => {
   return(
-    <div className={styles.strength}>
+    <div ref={tabRef4} className={styles.strength}>
       <div className={styles.title}>물플장점</div>
       <div className={styles.article}>
         <span className={styles.card}>

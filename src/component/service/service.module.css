@@ -48,6 +48,10 @@
     font-size: 1.8em;
   }
 
+  .title {
+    padding-top: 1rem;
+  }
+
   .card {
     padding: 1rem 0;
   }

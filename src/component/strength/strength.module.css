@@ -52,6 +52,10 @@
     font-size: 1.8em;
   }
 
+  .title {
+    padding-top: 1rem;
+  }
+
   .article {
     display: flex;
     flex-direction: column;
