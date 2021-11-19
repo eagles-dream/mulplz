@@ -8,10 +8,10 @@ import Service from './component/service/service';
 import Strength from './component/strength/strength';
 
 function App() {
-  const [burger, setBurger] = useState(false)
+  /* const [burger, setBurger] = useState(false)
   const toggleBurger = () => {
     return(setBurger(!burger))
-  }
+  } */
   
   const [visible, setVisible] = useState(false)
   
@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div className={styles.app}>
-      <Navbar burger={burger} toggleBurger={toggleBurger} moveTop={moveTop} />
+      <Navbar moveTop={moveTop} />
       <Introduction moveTop={moveTop} visible={visible} />
       <Service />
       <Process />

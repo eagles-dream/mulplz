@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/js/all.js'
 import { Offcanvas } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Navbar = ({burger, moveTop, toggleBurger}) => {
+const Navbar = ({moveTop}) => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -12,17 +12,17 @@ const Navbar = ({burger, moveTop, toggleBurger}) => {
 
   const offCanvas = () => {
     return (
-      <>
-        <Offcanvas show={show} placement="top" onHide={handleClose}>
-          <Offcanvas.Header closeButton>
-            <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-          </Offcanvas.Header>
-          <Offcanvas.Body>
-            Some text as placeholder. In real life you can have the elements you
-            have chosen. Like, text, images, lists, etc.
-          </Offcanvas.Body>
-        </Offcanvas>
-      </>
+      <Offcanvas className={styles.offcanvas} show={show} placement="end" onHide={handleClose}>
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>물플</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          <span className={styles.offcanvas_text}>물플소개</span>
+          <span className={styles.offcanvas_text}>주요서비스</span>
+          <span className={styles.offcanvas_text}>진행절차</span>
+          <span className={styles.offcanvas_text}>물플장점</span>
+        </Offcanvas.Body>
+      </Offcanvas>
     );
   }
 
@@ -33,7 +33,7 @@ const Navbar = ({burger, moveTop, toggleBurger}) => {
         <span className={styles.icon}><i className="fas fa-parachute-box"></i></span>
         <span className={styles.title}>물플</span>
       </div>
-      <div className={burger ? styles.menu_active : styles.menu}>
+      <div className={styles.menu}>
         <span className={styles.text}>물플소개</span>
         <span className={styles.text}>주요서비스</span>
         <span className={styles.text}>진행절차</span>
@@ -41,11 +41,7 @@ const Navbar = ({burger, moveTop, toggleBurger}) => {
       </div>
       <button className={styles.inquiry}>견적문의</button>
       <button className={styles.calling}>전화문의</button>
-      <button className={styles.offcanvas} onClick={handleShow}><i className="fas fa-bars"></i></button>
-      <span onClick={toggleBurger}>
-        <span className={!burger ? styles.burger_active : styles.burger}><i className="fas fa-bars"></i></span>
-        <span className={burger ? styles.times_active : styles.times}><i className="fas fa-times"></i></span>
-      </span>
+      <span className={styles.burger} onClick={handleShow}><i className="fas fa-bars"></i></span>
     </div>
   )
 };

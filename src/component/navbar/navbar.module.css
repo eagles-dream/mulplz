@@ -71,10 +71,7 @@
   display: none;
 }
 
-.burger,
-.times,
-.burger_active,
-.times_active {
+.burger {
   display: none;
 }
 
@@ -95,18 +92,7 @@
     display: none;
   }
 
-  .menu_active {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    font-size: 1.2rem;
-    font-weight: 300;
-    align-items: center;
-    padding: 2em 0 1.5em 0;
-  }
-
-  .text {
+  .offcanvas_text {
     display: flex;
     justify-content: center;
     padding: 0.5em 0;
@@ -114,7 +100,7 @@
     width: 100%;
   }
 
-  .text:hover {
+  .offcanvas_text:hover {
     background-color: var(--button-color);
     color: var(--text-color);
     border-radius: 8px;
@@ -152,38 +138,13 @@
     background-color: var(--calling-color);
   }
 
-  .burger_active {
+  .burger {
     display: inline-block;
-    position: absolute;
+    position: fixed;
     right: 1.1em;
     top: 0.6em;
     font-size: 1.5em;
     color: var(--text-color);
     cursor: pointer;
-    animation: spin 1s;
-  }
-
-  .times_active {
-    display: inline-block;
-    position: absolute;
-    right: 1.01em;
-    top: 0.43em;
-    font-size: 1.7em;
-    color: var(--text-color);
-    cursor: pointer;
-    animation: spin 1s;
-  }
-
-  .offcanvas {
-    display: block;
-  }
-
-  @keyframes spin {
-    from {
-      transform: rotate(0);
-    }
-    to {
-      transform: rotate(180deg);
-    }
   }
 }
