@@ -63,7 +63,7 @@
   bottom: 1em;
   font-size: 2.2em;
   color: var(--button-color);
-  border-radius: 0.3em;
+  border-radius: 50%;
   cursor: pointer;
 }
 
@@ -109,10 +109,6 @@
   }
 
   .top {
-    position: fixed;
-    right: 0.5em;
-    bottom: 5em;
-    font-size: 1.5em;
-    color: var(--button-color);
+    display: none;
   }
 }

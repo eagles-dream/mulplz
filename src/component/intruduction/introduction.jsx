@@ -1,21 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styles from './introduction.module.css'
 import Introduction2 from './introduction2';
 
-const Introduction = ({moveTop}) => {
-  const [visible, setVisible] = useState(false)
-  
-  useEffect(()=>{
-    const toggleVisible = () => {
-      if(window.pageYOffset > 500) {
-        setVisible(true)
-      } else { 
-        setVisible(false)
-      }
-    }
-    window.addEventListener("scroll", toggleVisible)
-  },[])
-
+const Introduction = ({moveTop, visible}) => {
   return(
     <>
     <div className={styles.introduction}>
@@ -30,7 +17,7 @@ const Introduction = ({moveTop}) => {
     <Introduction2 />
     { 
       visible
-      ? <button className={styles.top} onClick={moveTop}><i className="fas fa-arrow-up"></i></button>
+      ? <span className={styles.top} onClick={moveTop}><i className="fas fa-arrow-circle-up"></i></span>
       : null
     }
     </>

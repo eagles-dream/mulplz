@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from './app.module.css';
 import Footer from './component/footer/footer';
 import Introduction from './component/intruduction/introduction';
@@ -9,10 +9,22 @@ import Strength from './component/strength/strength';
 
 function App() {
   const [burger, setBurger] = useState(false)
-  
   const toggleBurger = () => {
     return(setBurger(!burger))
   }
+  
+  const [visible, setVisible] = useState(false)
+  
+  useEffect(()=>{
+    const toggleVisible = () => {
+      if(window.scrollY > 500) {
+        setVisible(true)
+      } else { 
+        setVisible(false)
+      }
+    }
+    window.addEventListener("scroll", toggleVisible)
+  },[])
 
   const moveTop = () => {
     window.scrollTo({top:0, behavior:"smooth"})
@@ -20,8 +32,8 @@ function App() {
 
   return (
     <div className={styles.app}>
-      <Navbar burger={burger} toggleBurger={toggleBurger} oveTop={moveTop} />
-      <Introduction moveTop={moveTop} />
+      <Navbar burger={burger} toggleBurger={toggleBurger} moveTop={moveTop} />
+      <Introduction moveTop={moveTop} visible={visible} />
       <Service />
       <Process />
       <Strength />
