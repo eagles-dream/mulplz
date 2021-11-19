@@ -8,6 +8,11 @@ import Service from './component/service/service';
 import Strength from './component/strength/strength';
 
 function App() {
+  /* const [burger, setBurger] = useState(false)
+  const toggleBurger = () => {
+    return(setBurger(!burger))
+  } */
+  
   const [visible, setVisible] = useState(false)
   
   useEffect(()=>{
